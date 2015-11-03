@@ -2,5 +2,8 @@
     <string name="app_name">resmArcWallet</string>
 
     <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_settings">Menu</string>
+    <string name="activate_button">Activate</string>
+    <string name="title_activity_activated">ActivatedActivity</string>
+    <string name="back_button">Back</string>
 </resources>
