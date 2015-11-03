@@ -3,4 +3,16 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+
+    //Custom dialog box titles
+    <string name="paid_custom_dialog">Paid</string>
+    <string name="top_up_custom_dialog">Top-Up</string>
+    <string name="updated_custom_dialog">Updated</string>
+    <string name="not_enough_custom_dialog">Not Enough Credit</string>
+    <string name="last_updated_balance_custom_dialog">Last Updated Balance</string>
+
+    //Buttons
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+
 </resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="resmarc_logo_color">#00bdbd</color>
+    <color name="red">#FF0000</color>
+    <color name="text_color">#1DBFD7</color>
+    <color name="light_text_color">#A8A79B</color>
+    <color name="medium_text_color">#848484</color>
+    <color name="dark_text_color">#000000</color>
+    <color name="bg_splash">#1DBFD7</color>
+    <color name="list_item_title">#fff</color>
+    <color name="list_background">#1dbed6</color>
+    <color name="list_background_pressed">#01DFD7</color>
+    <color name="list_divider">#04B4AE</color>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#c5c4c4</color>
+    <color name="titlebar_color">#33ccff</color>
+    <color name="send_invitation">#00FF66</color>
+    <color name="MessageFilde_color">#f0f0f0</color>
+    <color name="titlebackgroundcolor">#1dbed6</color>
+    <color name="titletextcolor">#FFF</color>
+    <color name="blue">#00abea</color>
+    <color name="white">#ffffff</color>
+    <color name="pink">#FE2EC8</color>
+    <!--for "Review and Send screen"-->
+    <color name="lightGray">#EEEEEE</color>
+    <color name="goblingreen">#13a89e</color>
+    <color name="grey">#dddddd</color>
+    <color name="feed_item_bg">#ffffff</color>
+    <color name="feed_item_border">#d8d9dd</color>
+    <color name="link">#0a80d1</color>
+    <color name="timestamp">#a0a3a7</color>
+    <color name="feed_bg">#d3d6db</color>
+    <color name="action_bar">#33B5E5</color>
+    <color name="background">#f3f4f6</color>
+    <color name="transparent_color">#00000000</color>
+</resources>
