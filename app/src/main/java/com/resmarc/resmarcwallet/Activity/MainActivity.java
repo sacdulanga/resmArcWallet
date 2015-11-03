@@ -1,23 +1,61 @@
 package com.resmarc.resmarcwallet.Activity;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.Button;
+import android.widget.Spinner;
 
+import com.resmarc.resmarcwallet.Adapters.MenuAdapter;
 import com.resmarc.resmarcwallet.R;
 
-public class MainActivity extends ActionBarActivity {
+import java.util.ArrayList;
+
+public class MainActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Intent intent1 = new Intent(MainActivity.this, ActivatedActivity.class);
-        startActivity(intent1);
-        finish();// finishes the current activity
+        Spinner spinner = (Spinner) findViewById(R.id.menu_spinner);
+        Button activateButton  = (Button) findViewById(R.id.activate_button);
+
+        ArrayList<String> list = new ArrayList<>();
+        list.add("Balance");
+        list.add("History");
+        list.add("Option");
+        MenuAdapter adapter = new MenuAdapter(MainActivity.this, android.R.layout.simple_spinner_dropdown_item,list);
+        spinner.setAdapter(adapter);
+        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                if (position == 0) {
+                    // show balance
+                } else {
+                    // show history
+                }
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+
+            }
+        });
+        spinner.setSelection(2);
+
+        activateButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this, ActivatedActivity.class);
+                startActivity(i);
+            }
+        });
     }
 
     @Override

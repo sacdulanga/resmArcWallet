@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="resmarc_logo_color">#00bdbd</color>
+    <color name="action_bar">#00bdbd</color>
     <color name="red">#FF0000</color>
     <color name="text_color">#1DBFD7</color>
     <color name="light_text_color">#A8A79B</color>
@@ -30,7 +31,6 @@
     <color name="link">#0a80d1</color>
     <color name="timestamp">#a0a3a7</color>
     <color name="feed_bg">#d3d6db</color>
-    <color name="action_bar">#33B5E5</color>
     <color name="background">#f3f4f6</color>
     <color name="transparent_color">#00000000</color>
 </resources>
