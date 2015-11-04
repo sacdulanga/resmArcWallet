@@ -1,4 +1,4 @@
-package com.resmarc.resmarcwallet.Model;
+package com.resmarc.resmarcwallet.model;
 
 import android.app.Activity;
 import android.app.Dialog;

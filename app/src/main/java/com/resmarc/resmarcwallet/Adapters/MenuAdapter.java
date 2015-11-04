@@ -1,4 +1,4 @@
-package com.resmarc.resmarcwallet.Adapters;
+package com.resmarc.resmarcwallet.adapters;
 
 import android.content.Context;
 import android.widget.ArrayAdapter;

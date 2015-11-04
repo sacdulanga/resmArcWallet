@@ -1,9 +1,8 @@
-package com.resmarc.resmarcwallet.Activity;
+package com.resmarc.resmarcwallet.activity;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -11,7 +10,7 @@ import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.Spinner;
 
-import com.resmarc.resmarcwallet.Adapters.MenuAdapter;
+import com.resmarc.resmarcwallet.adapters.MenuAdapter;
 import com.resmarc.resmarcwallet.R;
 
 import java.util.ArrayList;

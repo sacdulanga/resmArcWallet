@@ -1,10 +1,10 @@
-package com.resmarc.resmarcwallet.Activity;
+package com.resmarc.resmarcwallet.activity;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.widget.ListView;
 
-import com.resmarc.resmarcwallet.Adapters.ListViewCustomAdapter;
+import com.resmarc.resmarcwallet.adapters.ListViewCustomAdapter;
 import com.resmarc.resmarcwallet.R;
 
 /**
